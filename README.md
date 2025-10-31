@@ -8,7 +8,7 @@ A Foundry implementation of the UA2025-SubclassUpdates document released on D&am
 * Stylized subclass icons
 
 ## New Compendia and Journal Notes
-<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-SubclassUpdates/refs/heads/main/github-assets/example_1.png">
+<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-SubclassUpdates/refs/heads/master/github-assets/example_1.png">
 
 # Installation Instructions
 
