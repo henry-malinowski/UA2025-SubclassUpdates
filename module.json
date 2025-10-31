@@ -1,0 +1,77 @@
+{
+  "id": "UA2025-SubclassUpdates",
+  "title": "UA2025: Subclass Updates",
+  "description": "A Foundry implementation of the UA2025-SubclassUpdates document released on D&DBeyond",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350"
+  },  
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/UA2025-SubclassUpdates/assets/banners/media-cover.webp"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.1.0",
+          "verified": "5.1.10"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Henry Malinowski",
+      "discord": "hmalinowski",
+      "flags": {}
+    }
+  ],
+  "packs": [    
+    {
+      "name": "content",
+      "label": "Subclass Updates UA Document",
+      "system": "dnd5e",
+      "path": "packs/content",
+      "type": "JournalEntry",
+      "banner": "modules/UA2025-SubclassUpdates/assets/compendium/banner-01.webp"
+    },
+    {
+      "name": "classes",
+      "label": "Subclasses",
+      "system": "dnd5e",
+      "path": "packs/classes",
+      "type": "Item",
+      "banner": "modules/UA2025-SubclassUpdates/assets/compendium/banner-02.webp"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "UA2025-SubclassUpdates",
+      "color": "#64655c",
+      "sorting": "m",
+      "packs": [
+        "content",
+        "classes"
+      ]
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "UA2025-SubclassUpdates": "UA2025-SubclassUpdates"
+      }
+    }
+  },
+  "readme": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/master/Readme.md",
+  "bugs": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/-/issues",
+  "changelog": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/master/Changelog.md",
+  "url": "https://github.com/henry-malinowski/UA2025-SubclassUpdates",
+  "manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2025-SubclassUpdates/refs/heads/main/module.json",
+  "download": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/releases/download/v1.0.0/UA2025-SubclassUpdates.zip"
+}
