@@ -1,77 +1,87 @@
 {
-  "id": "UA2025-SubclassUpdates",
-  "title": "UA2025: Subclass Updates",
-  "description": "A Foundry implementation of the UA2025-SubclassUpdates document released on D&DBeyond",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13.350"
-  },  
-  "media": [
-    {
-      "type": "setup",
-      "url": "modules/UA2025-SubclassUpdates/assets/banners/media-cover.webp"
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "5.1.0",
-          "verified": "5.1.10"
-        }
-      }
-    ]
-  },
-  "authors": [
-    {
-      "name": "Henry Malinowski",
-      "discord": "hmalinowski",
-      "flags": {}
-    }
-  ],
-  "packs": [    
-    {
-      "name": "content",
-      "label": "Subclass Updates UA Document",
-      "system": "dnd5e",
-      "path": "packs/content",
-      "type": "JournalEntry",
-      "banner": "modules/UA2025-SubclassUpdates/assets/compendium/banner-01.webp"
-    },
-    {
-      "name": "classes",
-      "label": "Subclasses",
-      "system": "dnd5e",
-      "path": "packs/classes",
-      "type": "Item",
-      "banner": "modules/UA2025-SubclassUpdates/assets/compendium/banner-02.webp"
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "UA2025-SubclassUpdates",
-      "color": "#64655c",
-      "sorting": "m",
-      "packs": [
-        "content",
-        "classes"
-      ]
-    }
-  ],
-  "flags": {
-    "dnd5e": {
-      "sourceBooks": {
-        "UA2025-SubclassUpdates": "UA2025-SubclassUpdates"
-      }
-    }
-  },
-  "readme": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/master/Readme.md",
-  "bugs": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/-/issues",
-  "changelog": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/master/Changelog.md",
-  "url": "https://github.com/henry-malinowski/UA2025-SubclassUpdates",
-  "manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2025-SubclassUpdates/refs/heads/master/module.json",
-  "download": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/releases/download/v1.0.0/module.zip"
+	"id": "UA2025-SubclassUpdates",
+	"title": "UA2025: Subclass Updates",
+	"description": "A Foundry implementation of the UA2025-SubclassUpdates document released on D&DBeyond",
+	"version": "2.0.0",
+	"compatibility": {
+		"minimum": "13.347",
+		"verified": "13"
+	},
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/UA2025-SubclassUpdates/assets/banners/media-cover.webp"
+		}
+	],
+	"esmodules": ["scripts/ua2025-subclass-updates.mjs"],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "5.2.0",
+					"verified": "5.2.5"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "dnd-players-handbook",
+				"type": "module",
+				"compatibility": {
+					"verified": "2.1.0"
+				}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "Henry Malinowski",
+			"discord": "hmalinowski",
+			"url": "https://github.com/henry-malinowski"
+		}
+	],
+	"packs": [
+		{
+			"name": "content",
+			"label": "Subclass Updates UA Document",
+			"system": "dnd5e",
+			"path": "packs/content",
+			"type": "JournalEntry",
+			"banner": "modules/UA2025-SubclassUpdates/assets/compendium/banner-01.webp"
+		},
+		{
+			"name": "classes",
+			"label": "Subclasses",
+			"system": "dnd5e",
+			"path": "packs/classes",
+			"type": "Item",
+			"banner": "modules/UA2025-SubclassUpdates/assets/compendium/banner-02.webp"
+		}
+	],
+	"packFolders": [
+		{
+			"name": "UA2025-SubclassUpdates",
+			"color": "#64655c",
+			"sorting": "m",
+			"packs": ["content", "classes"]
+		}
+	],
+	"flags": {
+		"dnd5e": {
+			"sourceBooks": {
+				"UA2025-SubclassUpdates": "UA2025-SubclassUpdates"
+			},
+			"spellLists": [
+				"Compendium.UA2025-SubclassUpdates.content.JournalEntry.uaSpelllists0000.JournalEntryPage.8no7AmVBTPP9LBcH"
+			]
+		}
+	},
+	"readme": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/#readme",
+	"bugs": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/issues",
+	"changelog": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/blob/main/CHANGELOG.md",
+	"url": "https://henry-malinowski.github.io/5eUA-for-FoundryVTT/",
+	"manifest": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/releases/latest/download/module.json",
+	"download": "https://github.com/henry-malinowski/UA2025-SubclassUpdates/releases/latest/download/module.zip"
 }
