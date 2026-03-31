@@ -1,0 +1,158 @@
+folder: GUKDQfAUQiho4gGB
+name: Dreadful Aspect
+type: feat
+_id: uapdnDreadfulAsp
+img: icons/magic/control/fear-fright-white.webp
+system:
+  activities:
+    LS0IeDlnATDJdP2V:
+      type: save
+      name: Manifest Dread
+      _id: LS0IeDlnATDJdP2V
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: Immediately after you cast Divine Smite
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: AgU3g5oYi1GJAEqI
+          level: {}
+          onSave: false
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Immediately after you cast
+      <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{Divine
+      Smite}</em>, you can expend one use of your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv]{Channel
+      Divinity} to channel a burst of magical menace. Each creature of your
+      choice in a 30-foot Emanation originating from you must succeed on a
+      [[/save]]{Wisdom saving throw} or have the &amp;Reference[Frightened]
+      condition for 1 minute. A Frightened creature repeats the save at the end
+      of each of its turns, ending the effect on itself on a success.</p>
+    chat: ''
+  identifier: dreadful-aspect
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Oathbreaker
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Frightened
+    img: icons/magic/control/fear-fright-white.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uapdnDreadfulAsp
+    transfer: false
+    _id: AgU3g5oYi1GJAEqI
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uapdnDreadfulAsp.AgU3g5oYi1GJAEqI'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996885516
+  modifiedTime: 1774996885593
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnDreadfulAsp'

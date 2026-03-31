@@ -1,0 +1,126 @@
+folder: 90RWkd9OdpTwKESg
+name: Warrior of Intoxication
+type: subclass
+_id: uamnkIntoxicatio
+img: modules/UA2025-SubclassUpdates/assets/icons/classes/intoxication.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: kt4oTkTbzs2hGhrC
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkBonusProfic
+            optional: false
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkDrunkenTech
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: bJDnH1NkrQ8nbtNN
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkTipseSway00
+            optional: false
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkMysticBrew0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: htxZoGaYext2qgUj
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkMasterBrewe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: x0qGA5SK0vmdLuWG
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkIntoxicated
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      hint: ''
+    - type: Trait
+      title: Performance Proficiency
+      _id: hKLV9kq8a0hUZ3sv
+      configuration:
+        allowReplacements: true
+        choices: []
+        grants:
+          - skills:prf
+        mode: default
+      level: 3
+      hint: >-
+        If you already have Performance, you may choose from the following:
+        Acrobatics, Athletics, History, Insight, Religion, or Stealth.
+      value: {}
+    - type: Trait
+      title: Brewer's Supplies Proficiency
+      _id: ZJytdp371VeVRPMz
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:art:brewer
+        mode: default
+      level: 3
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <blockquote><p>Drink Mystic Brews to Overwhelm and Confound
+      Foes</p></blockquote><p>Warriors of Intoxication move with the jerky,
+      unpredictable movements typical of someone who is intoxicated. These Monks
+      sway on unsteady feet to appear incompetent and then prove themselves
+      frustrating to engage. Their apparently erratic stumbles conceal a
+      carefully executed dance of blocks, parries, advances, attacks, and
+      retreats.</p><p>Warriors of Intoxication often enjoy playing the fool to
+      bring gladness to the downtrodden or to teach humility to the arrogant,
+      but these Monks are maddening, masterful foes in battle.</p>
+    chat: ''
+  identifier: intoxication
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  classIdentifier: monk
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996766170
+  modifiedTime: 1774997025086
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkIntoxicatio'

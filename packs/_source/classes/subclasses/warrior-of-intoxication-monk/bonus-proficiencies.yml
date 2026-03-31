@@ -1,0 +1,54 @@
+folder: cbOwedQZMMIXF0Vd
+name: Bonus Proficiencies
+type: feat
+_id: uamnkBonusProfic
+img: icons/commodities/tech/cog-bronze.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain proficiency in the Performance skill, or if you already have
+      it, you gain proficiency in one skill of your choice from the skills
+      available to Monks at level 1. You also gain proficiency with Brewer’s
+      Supplies if you don’t already have it.</p>
+    chat: ''
+  identifier: bonus-proficiencies
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Warrior of Intoxication
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996988919
+  modifiedTime: 1774996988919
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkBonusProfic'

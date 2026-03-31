@@ -1,0 +1,18 @@
+type: Item
+folder: 90RWkd9OdpTwKESg
+name: Cavalier (Fighter)
+color: null
+sorting: a
+_id: trT8NjAi49Na7UGZ
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774994656981
+_key: '!folders!trT8NjAi49Na7UGZ'

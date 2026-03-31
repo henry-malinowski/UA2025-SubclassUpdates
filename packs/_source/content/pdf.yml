@@ -1,0 +1,48 @@
+name: PDF
+_id: uaPdfs0000000000
+pages:
+  - sort: 100000
+    name: UA2025-SubclassesUpdate
+    type: pdf
+    _id: DwAM2ZQNNdJDdFLE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-SubclassUpdates/assets/pdfs/UA2025-UpdatedSubclasses.pdf
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaPdfs0000000000.DwAM2ZQNNdJDdFLE'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996668266
+  modifiedTime: 1774996668266
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaPdfs0000000000'

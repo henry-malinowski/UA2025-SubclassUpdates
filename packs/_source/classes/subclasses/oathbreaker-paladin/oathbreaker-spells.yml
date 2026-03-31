@@ -1,0 +1,174 @@
+folder: GUKDQfAUQiho4gGB
+name: Oathbreaker Spells
+type: feat
+_id: uapdnSpellsOathb
+img: icons/magic/death/projectile-skull-fire-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Oathbreaker Spells
+      _id: bHyMGnljQhrPA0y7
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Oathbreaker Spells
+      _id: QzdYhP5BRmXKBXE0
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Oathbreaker Spells
+      _id: NH7K0IDqtVaLQnPg
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFear000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Oathbreaker Spells
+      _id: 7FNtedQNqyZHVzXV
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Oathbreaker Spells
+      _id: ZsMuINKvkaDdsokR
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplContagion0
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <p>The magic of your oath ensures you always have certain spells ready;
+      when you reach a Paladin level specified in the Oathbreaker Spells table,
+      you thereafter always have the listed spells
+      prepared.</p><table><caption>Oathbreaker
+      Spells</caption><thead><tr><td>Paladin
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Hellish
+      Rebuke},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0]{Witch
+      Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad]{Crown
+      of Madness},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{Fear},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{Summon
+      Undead}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal]{Phantasmal
+      Killer}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContagion0]{Contagion},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel
+      Wind Strike}</td></tr></tbody></table><section class="secret"
+      id="secret-BJb1nvUMxSS77zuz"><p><strong>Foundry Note</strong></p><p>The
+      spells will be automatically granted as you level up.</p></section>
+    chat: ''
+  identifier: oathbreaker-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Oathbreaker
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996893936
+  modifiedTime: 1774996893936
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnSpellsOathb'

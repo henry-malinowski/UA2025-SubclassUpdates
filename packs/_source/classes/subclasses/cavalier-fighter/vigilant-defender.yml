@@ -1,0 +1,104 @@
+folder: trT8NjAi49Na7UGZ
+name: Vigilant Defender
+type: feat
+_id: uaftrVigilantDef
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+system:
+  activities:
+    pQxC5tfQu1rktZRq:
+      type: utility
+      _id: pQxC5tfQu1rktZRq
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>In combat, you get a special &amp;Reference[Reaction] that you can take
+      once on every creature’s turn except your turn. You can take this Reaction
+      only to make an Opportunity Attack, and you can’t take it on the same turn
+      that you take your normal Reaction.</p>
+    chat: ''
+  identifier: vigilant-defender
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties:
+    - trait
+  requirements: Cavalier
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 800000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996849185
+  modifiedTime: 1774996849185
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrVigilantDef'

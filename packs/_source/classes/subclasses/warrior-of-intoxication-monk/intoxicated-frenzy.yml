@@ -1,0 +1,54 @@
+folder: cbOwedQZMMIXF0Vd
+name: Intoxicated Frenzy
+type: feat
+_id: uamnkIntoxicated
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You make an overwhelming number of attacks against a group of enemies.
+      When you use Flurry of Blows, you can make up to three additional Unarmed
+      Strikes with it (up to a total of six Unarmed Strike), provided that each
+      strike targets a different creature this turn.</p>
+    chat: ''
+  identifier: intoxicated-frenzy
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+  properties:
+    - trait
+  requirements: Warrior of Intoxication
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774997000884
+  modifiedTime: 1774997000884
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkIntoxicated'

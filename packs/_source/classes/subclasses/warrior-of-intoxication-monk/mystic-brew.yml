@@ -1,0 +1,389 @@
+folder: cbOwedQZMMIXF0Vd
+name: Mystic Brew
+type: feat
+_id: uamnkMysticBrew0
+img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+system:
+  activities:
+    HItYKRwp29ss3NOb:
+      type: save
+      name: Cinnamon Dragon
+      _id: HItYKRwp29ss3NOb
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: RTSIF1FXnGhT5Vk3
+          level: {}
+          onSave: false
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: 4@scale.monk.die.die
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: wis
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    KLN8yLKCcGUTDhIb:
+      type: utility
+      name: Heavenly Spirit
+      _id: KLN8yLKCcGUTDhIb
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: z7BWnUcgCkdu3dRH
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    zUPR1ZHlC6joLlcb:
+      type: heal
+      name: Refreshing Dip
+      _id: zUPR1ZHlC6joLlcb
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: Whenever you regain Hit Points
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.monk.die.die'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    VgMHG6if7mMaLaTj:
+      type: utility
+      name: Spend Focus
+      _id: VgMHG6if7mMaLaTj
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbmnkMonksFocus
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whenever you finish a Short or Long Rest while holding Brewer’s
+      Supplies, you can use that tool to magically produce one magical beverage,
+      chosen from the following options: Cinnamon Dragon, Heavenly Spirit, or
+      Refreshing Dip. The beverage appears in a bottle or cask, and the bottle
+      vanishes when the beverage is drunk or poured out. If any beverage remains
+      when you finish a Short or Long Rest, the beverage and its container
+      vanish.</p><p><em><strong>Drinking a Magical Beverage.</strong></em> Only
+      you can gain the benefit of drinking the beverage. You must drink at least
+      a pint of the beverage before gaining its benefit. You can spend 1 minute
+      drinking a pint of the beverage. You then gain the benefits of the
+      beverage for 1 hour, as described below.</p><hr /><p><em><strong>Cinnamon
+      Dragon.</strong></em> You can take a Magic action to exhale toxic flames
+      in a 30-foot Cone. Each creature makes a Dexterity saving throw (DC 8 plus
+      your Wisdom modifier and Proficiency Bonus). On a failed save, a creature
+      takes Fire damage equal to four rolls of your Martial Arts die and has the
+      Poisoned condition until the end of its next turn. On a successful save, a
+      creature takes half as much damage only.</p><p><em><strong>Heavenly
+      Spirit.</strong></em> You gain Resistance to Psychic and Radiant
+      damage.</p><p><em><strong>Refreshing Dip.</strong></em> Whenever you
+      regain Hit Points, you regain additional Hit Points equal to a roll of
+      your Martial Arts die.</p><hr /><p><em><strong>Enhancing a Magical
+      Beverage.</strong></em> When you create a magical beverage, you can expend
+      1 Focus Point. When you do so, the benefit’s duration extends to 8
+      hours.</p><section class="secret"
+      id="secret-tYE6bxaEjXO1EraO"><p><strong>Foundry Note</strong></p><p>This
+      feature as well as Master Brewer are not automated. Simply declare which
+      brew you are creating and only use the activity appropriate to the choosen
+      brew.</p></section>
+    chat: ''
+  identifier: mystic-brew
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Warrior of Intoxication
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Poisoned
+    img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkMysticBrew0
+    transfer: false
+    _id: RTSIF1FXnGhT5Vk3
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - poisoned
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uamnkMysticBrew0.RTSIF1FXnGhT5Vk3'
+  - name: Heavenly Spirit
+    img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkMysticBrew0
+    transfer: false
+    _id: z7BWnUcgCkdu3dRH
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: psychic
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: radiant
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 3600
+      rounds: 600
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uamnkMysticBrew0.z7BWnUcgCkdu3dRH'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774997015809
+  modifiedTime: 1774997015885
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkMysticBrew0'

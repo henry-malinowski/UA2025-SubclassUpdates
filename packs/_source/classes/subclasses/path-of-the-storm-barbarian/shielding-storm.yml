@@ -1,0 +1,58 @@
+folder: oz7UgzRKErDqSVH8
+name: Shielding Storm
+type: feat
+_id: uabrbShieldingSt
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-blue-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can use your mastery of the storm to protect others. Each creature
+      of your choice within your
+      @UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormAura00]{Storm
+      Aura} has the damage Resistance you have from the
+      @UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormSoul00]{Storm
+      Soul} feature.</p><section class="secret"
+      id="secret-Y1m7WwOiMcGEqdFR"><p><strong>Foundry Note</strong></p><p>This
+      feature is not automated.</p></section>
+    chat: ''
+  identifier: shielding-storm
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties:
+    - trait
+  requirements: Path of the Storm
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996957663
+  modifiedTime: 1774996977365
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbShieldingSt'

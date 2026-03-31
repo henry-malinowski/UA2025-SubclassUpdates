@@ -1,0 +1,18 @@
+type: Item
+folder: 90RWkd9OdpTwKESg
+name: Oathbreaker (Paladin)
+color: null
+sorting: a
+_id: GUKDQfAUQiho4gGB
+description: ''
+sort: 500000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774994672285
+_key: '!folders!GUKDQfAUQiho4gGB'

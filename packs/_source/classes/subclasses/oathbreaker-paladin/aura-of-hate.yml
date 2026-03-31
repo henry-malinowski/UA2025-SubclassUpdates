@@ -1,0 +1,53 @@
+folder: GUKDQfAUQiho4gGB
+name: Aura of Hate
+type: feat
+_id: uapdnAuraofHate0
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you, as well as any Fiend or Undead in your Aura of Protection
+      that is an ally, hits a creature with a melee attack, that attack deals
+      [[/damage @abilities.cha.mod necrotic]]{extra Necrotic damage} equal to
+      your Charisma modifier.</p>
+    chat: ''
+  identifier: aura-of-hate
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: Oathbreaker
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996864803
+  modifiedTime: 1774996864803
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnAuraofHate0'

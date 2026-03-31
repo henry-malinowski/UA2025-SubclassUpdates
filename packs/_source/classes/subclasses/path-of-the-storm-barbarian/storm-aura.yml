@@ -1,0 +1,280 @@
+folder: oz7UgzRKErDqSVH8
+name: Storm Aura
+type: feat
+_id: uabrbStormAura00
+img: icons/magic/air/wind-weather-snow-gusts.webp
+system:
+  activities:
+    pGAJoV43lUQtK5y4:
+      type: save
+      name: Desert Save
+      _id: pGAJoV43lUQtK5y4
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scale.barbarian.rage-damage)d4
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: con
+          formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/sandstorm.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    RDVXFbaCvAewGnEu:
+      type: save
+      name: Sea Save
+      _id: RDVXFbaCvAewGnEu
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+        value: '10'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scale.barbarian.rage-damage)d6
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: con
+          formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/lightning-storm.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    PgxIjPqgrQhF7gCF:
+      type: save
+      name: Tundra Save
+      _id: PgxIjPqgrQhF7gCF
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scale.barbarian.rage-damage)d4
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      save:
+        ability:
+          - str
+        dc:
+          calculation: con
+          formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/snowflake-2.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whenever you activate your Rage, choose Desert, Sea, or Tundra. You
+      extend an aura in a 10-foot Emanation originating from yourself for the
+      duration of your Rage.</p><p>Your aura has an effect that activates when
+      you enter your Rage, and you can activate the effect again on each of your
+      turns as a Bonus Action. Your aura’s effect depends on the chosen
+      environment, as detailed below.</p><p>If your aura’s effect requires a
+      saving throw, the DC equals 8 plus your Proficiency bonus plus your
+      Constitution modifier.</p><p><em><strong>Desert.</strong></em> When this
+      effect is activated, roll a number of d4s equal to your Rage Damage bonus,
+      and add them together. Each creature in the aura must succeed on a
+      Dexterity saving throw or take Fire damage equal to the number rolled. You
+      can choose one creature you can see in your aura to automatically succeed
+      on this saving throw.</p><p><em><strong>Sea.</strong></em> When this
+      effect is activated, roll a number of d6s equal to your Rage Damage bonus,
+      and add them together. You can then hurl a bolt of lightning at one other
+      creature you can see within your aura. The target makes a Dexterity saving
+      throw, taking Lightning damage equal to the number rolled on a failed
+      save, or half as much damage on a successful one.
+      </p><p><em><strong>Tundra.</strong></em> When this effect is activated,
+      roll a number of d4s equal to your Rage Damage bonus, and add them
+      together. You can choose one other creature you can see within your aura
+      to harry with icy spirits. The target must succeed on a Strength saving
+      throw or it subtracts the number rolled from the next damage roll it makes
+      before the start of your next turn.</p>
+    chat: ''
+  identifier: storm-aura
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '2'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Path of the Storm
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996963906
+  modifiedTime: 1774996963906
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbStormAura00'

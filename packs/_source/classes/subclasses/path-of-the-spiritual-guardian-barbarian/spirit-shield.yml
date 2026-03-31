@@ -1,0 +1,117 @@
+folder: gwyV3AkOy7fXN2Ma
+name: Spirit Shield
+type: feat
+_id: uabrbSpiritShiel
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  activities:
+    uAITLgM0bu6tAysw:
+      type: heal
+      name: Reduce
+      _id: uAITLgM0bu6tAysw
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: when another creature you can see within 30 feet of you takes damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: (@scale.barbarian.rage-damage)d6
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your guardian spirits can provide supernatural protection to those you
+      defend. While your Rage is active, when another creature you can see
+      within 30 feet of you takes damage, you can take a Reaction to reduce that
+      damage. To determine the amount the damage is reduced by, roll a number of
+      d6s equal to your Rage Damage bonus, and add them together.</p><section
+      class="secret" id="secret-NNsyDlUjj0lT1Ofg"><p><strong>Foundry
+      Note</strong></p><p>This featur offers a heal option to apply as damage
+      reduction. If this would cause the attack to apply no damage, don't apply
+      the damage of the triggering attack or this healing.</p></section>
+    chat: ''
+  identifier: spirit-shield
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '2'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Path of the Spiritual Guardian
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996920635
+  modifiedTime: 1774996920635
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbSpiritShiel'

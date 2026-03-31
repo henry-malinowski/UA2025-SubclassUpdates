@@ -1,0 +1,93 @@
+folder: 90RWkd9OdpTwKESg
+name: Path of the Spiritual Guardian
+type: subclass
+_id: uabrbSpiritualGu
+img: modules/UA2025-SubclassUpdates/assets/icons/classes/spiritual-guardian.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: GtkhXcJEZbvXbo4j
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbSpiritualPr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: JBopCSdVWBFvpFXg
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbSpiritShiel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: R96gv1YB6DqOdiNm
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbConsulttheS
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 9hyuI2d3SQcX3LGj
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbVengefulSpi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Call on the Spirits for Combat
+      Aid</p></blockquote><p>Barbarians who walk the Path of the Spiritual
+      Guardian call upon spirits—whether bestial spirits of nature, spirits of
+      departed ancestors, or spirits of raw elemental power—to guide and protect
+      them. When these Barbarians rage, they contact the realm of the spirits
+      and call on them for aid.</p>
+    chat: ''
+  identifier: spiritual-guardian
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '1'
+    custom: ''
+    license: ''
+  classIdentifier: barbarian
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: wis
+effects: []
+sort: 112500
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996751755
+  modifiedTime: 1774996935147
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbSpiritualGu'

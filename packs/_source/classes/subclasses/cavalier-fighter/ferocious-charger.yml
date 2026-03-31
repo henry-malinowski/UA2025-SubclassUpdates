@@ -1,0 +1,171 @@
+folder: trT8NjAi49Na7UGZ
+name: Ferocious Charger
+type: feat
+_id: uaftrFerociousCh
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+system:
+  activities:
+    KyLgU244mdJKp35Z:
+      type: utility
+      _id: KyLgU244mdJKp35Z
+      sort: 0
+      activation:
+        type: encounter
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    c0xnxY45otLSvxo8:
+      type: save
+      _id: c0xnxY45otLSvxo8
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          You move within 5 feet of a creature during the first round of each
+          combat
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - str
+        dc:
+          calculation: str
+          formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>During the first round of each combat, you and your mount’s Speed
+      increases by 10 feet, and your movement doesn’t provoke Opportunity
+      Attacks for that round. When you move within 5 feet of a creature this
+      round, that creature must succeed on a [[/save str
+      dc=@abilities.str.dc]]{Strength saving throw} (DC 8 plus your Strength
+      modifier and Proficiency Bonus) or you either push it 5 feet away or cause
+      it to have the &amp;Reference[Prone] condition. A creature makes this save
+      only once during a turn.</p><section class="secret"
+      id="secret-gWykiWDn5EygdfoM"><p><strong>Foundry Note</strong></p><p>This
+      feature does not apply a Speed during the first turn of combat, but does
+      trigger when combat begins to remind the user of its
+      application.</p></section>
+    chat: ''
+  identifier: ferocious-charger
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: Cavalier
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 700000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996800214
+  modifiedTime: 1774996800214
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrFerociousCh'

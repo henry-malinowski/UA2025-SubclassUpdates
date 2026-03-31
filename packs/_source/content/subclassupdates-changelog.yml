@@ -1,0 +1,144 @@
+name: SubclassUpdates Changelog
+_id: uaChangelog00000
+pages:
+  - sort: 100000
+    name: v1.0.0
+    type: text
+    _id: CUSa7HTPDKOsX2hM
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Design Notes</h2><h3>Path of the Spiritual Guardian</h3><p>Here are
+        the main updates in this subclass (formerly Path of the Ancestral
+        Guardian) since its last appearance in <em>Xanathar’s Guide to
+        Everything</em>:</p><ul><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbSpiritualPr]{Spiritual
+        Protectors}</strong> (formerly Ancestral Protectors) has been
+        redesigned. The feature now splits the effects of the original feature,
+        along with new effects, as options when you hit a creature while your
+        Rage is
+        active.</p></li><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbSpiritShiel]{Spirit
+        Shield}</strong> now scales with your Rage Damage
+        bonus.</p></li><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbVengefulSpi]{Vengeful
+        Spirits}</strong> (formerly Vengeful Ancestors) is a new feature that
+        allows you to make an additional attack when you roll an 18 or higher on
+        an attack roll.</p></li></ul><h3>Path of the Storm Harald</h3><p>Here
+        are the main updates in this subclass since its appearance in
+        <em>Xanathar’s Guide to
+        Everything</em>:</p><ul><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormAura00]{Storm
+        Aura}</strong> now scales with your Rage Damage bonus. In addition,
+        Tundra has been redesigned to reduce a creature’s damage instead of
+        applying Temporary Hit
+        Points.</p></li><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbRagingStorm]{Raging
+        Storm}</strong> has each environment redesigned. Desert now makes a
+        creature that failed the saving throw start burning. Sea can now chain
+        the lightning bolt to another creature. Tundra now deals Cold damage and
+        halves a creature’s Speed</p></li></ul><h3>Cavalier</h3><p>Here are the
+        main updates in this subclass since its appearance in <em>Xanathar’s
+        Guide to
+        Everything</em>:</p><ul><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uaftrUnwaveringM]{Unwavering
+        Mark}</strong> no longer has limited
+        uses.</p></li><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uaftrFerociousCh]{Ferocious
+        Charger}</strong> has been redesigned to give a burst of speed during
+        the first round of each combat.</p></li></ul><h3>Warrior of
+        Intoxication</h3><p>Here are the main updates in this subclass (formerly
+        Way of the Drunken Master) since its last appearance in <em>Xanathar’s
+        Guide to
+        Everything</em>:</p><ul><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uamnkMysticBrew0]{Mystic
+        Brew}</strong> is a new feature that lets the Monk create magical brews
+        that they can drink to gain long-lasting
+        benefits.</p></li><li><p><strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uamnkMasterBrewe]{Master
+        Brewer}</strong> is a new feature that replaces Drunkard’s Luck. The
+        feature adds additional beverage options to Mystic
+        Brew.</p></li></ul><h3>Oathbreaker</h3><p>Here are the main updates in
+        this subclass since its last appearance in the 2014 <em>Dungeon Master’s
+        Guide</em>:</p><p>•
+        <strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uapdnConjureUnde]{Conjure
+        Undead}</strong> (formerly Control Undead) now lets you briefly summon
+        Undead to aid you.</p><p>•
+        <strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uapdnDreadfulAsp]{Dreadful
+        Aspect}</strong> now loops through the Divine Smite spell.</p><p>•
+        <strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uapdnSpellsOathb]{Oathbreaker
+        Spells}</strong> has new spells. </p><p>•
+        <strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uapdnAuraofHate0]{Aura
+        of Hate}</strong> now adds its effect to your Aura of Protection. The
+        aura now benefits only Fiends and Undead that are your allies.</p><p>•
+        <strong>@UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uapdnDreadLord00]{Dread
+        Lord}</strong> now imbues your Aura of Protection and can be recharged
+        by expending a level 5 spell slot.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaChangelog00000.CUSa7HTPDKOsX2hM'
+  - sort: 200000
+    name: v2.0.0
+    type: text
+    _id: fsQutAOP7McnMSPw
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Added</h3><ul><li><p>Auto-opening Journal based
+        Changelog</p></li><li><p>Page numbers to
+        Features</p></li></ul><h3>Changed</h3><ul><li><p>Moved VSC from binary
+        leveldb files to YAML files</p></li><li><p>Moved subclass spell lists as
+        Item Grant advancements to the X Spells feature instead of Class
+        progression</p></li><li><p>Defined deterministic
+        UUIDs</p><ul><li><p>This is a breaking
+        change</p></li></ul></li><li><p>Reorganized/normalized compendium pack
+        structure</p></li></ul><h3>Fixed</h3><ul><li><p>Removed erroneous
+        Charisma stat casting requirement from Oathbreaker spells</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaChangelog00000.fsQutAOP7McnMSPw'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996698984
+  modifiedTime: 1774997015837
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaChangelog00000'

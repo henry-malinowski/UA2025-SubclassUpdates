@@ -1,0 +1,322 @@
+folder: gwyV3AkOy7fXN2Ma
+name: Spiritual Protectors
+type: feat
+_id: uabrbSpiritualPr
+img: icons/magic/death/undead-ghosts-trio-blue.webp
+system:
+  activities:
+    Exdqaj9cKTQAIU7n:
+      type: damage
+      name: Strike
+      _id: Exdqaj9cKTQAIU7n
+      sort: 100000
+      activation:
+        type: ''
+        override: false
+        condition: >-
+          While your Rage is active, when you hit a creature with a weapon or an
+          Unarmed Strike
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - thunder
+            scaling:
+              number: 1
+      img: systems/dnd5e/icons/svg/activity/attack.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    7l3Wyy1Xf2VeYJ7C:
+      type: utility
+      name: Distract
+      _id: 7l3Wyy1Xf2VeYJ7C
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: >-
+          While your Rage is active, when you hit a creature with a weapon or an
+          Unarmed Strike
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: vxdolmxwsdqdNEoY
+          level: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/distraction.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    7qrHbRxNhZ2ftT1m:
+      type: utility
+      name: Protect
+      _id: 7qrHbRxNhZ2ftT1m
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: >-
+          While your Rage is active, when you hit a creature with a weapon or an
+          Unarmed Strike
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: aHHiIGt4zuIV4zW8
+          level: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/divert.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Rage summons spectral warriors to your aid. While your Rage is
+      active, when you hit a creature with a weapon or an Unarmed Strike, it
+      becomes the target of the spirits, which cause one of the following
+      effects of your choice.</p><p><em><strong>Distract.</strong></em> Until
+      the start of your next turn, the target has Disadvantage attack rolls
+      against targets other than you or another Barbarian who has this
+      feature.</p><p><em><strong>Protect.</strong></em> Until the end of the
+      target’s next turn, the next time it hits a creature other than you with
+      an attack roll, that creature has Resistance to the damage dealt by the
+      attack.</p><p><em><strong>Strike.</strong></em> The target takes an extra
+      1d6 damage, which can be Acid, Cold, Fire, Force, Lightning, or Thunder
+      damage (your choice).</p><section class="secret"
+      id="secret-Ixxu9ZpPho7zqjMu"><p><strong>Foundry Note</strong></p><p>The
+      attack Disadvantage and damage Resistance of the Distract and Protect
+      options are not automated, but have an active effect to remember which
+      creature the has the debuff applied.</p><p>The Strike option allows you to
+      pick the damage type in its roll dialog.</p></section>
+    chat: ''
+  identifier: spiritual-protectors
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '1'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Path of the Spiritual Guardian
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Distract
+    img: icons/magic/death/undead-ghosts-trio-blue.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbSpiritualPr
+    transfer: false
+    _id: vxdolmxwsdqdNEoY
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This creature has Disadvantage on attack rolls against targets other
+      than the Spiritual Guardian Barbarians.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrbSpiritualPr.vxdolmxwsdqdNEoY'
+  - name: Protect
+    img: icons/magic/death/undead-ghosts-trio-blue.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbSpiritualPr
+    transfer: false
+    _id: aHHiIGt4zuIV4zW8
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The next time this creature deals damage to a creature other than the
+      Spiritual Guardian, that creature has Resistance to the damage dealt by
+      the attack.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrbSpiritualPr.aHHiIGt4zuIV4zW8'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996928131
+  modifiedTime: 1774996928210
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbSpiritualPr'

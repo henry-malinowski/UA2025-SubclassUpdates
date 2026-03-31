@@ -1,0 +1,107 @@
+folder: trT8NjAi49Na7UGZ
+name: Hold the Line
+type: feat
+_id: uaftrHoldtheLine
+img: icons/skills/movement/arrow-down-pink.webp
+system:
+  activities:
+    InQbeSw1UBzvQAve:
+      type: utility
+      _id: InQbeSw1UBzvQAve
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Creatures provoke an Opportunity Attack from you when they move 5 feet
+      or more while within your reach. When you hit a creature with an
+      Opportunity Attack, the target’s Speed becomes 0 until the end of the
+      current turn</p>
+    chat: ''
+  identifier: hold-the-line
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '4'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties:
+    - trait
+  requirements: Cavalier
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 600000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996809505
+  modifiedTime: 1774996809505
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrHoldtheLine'

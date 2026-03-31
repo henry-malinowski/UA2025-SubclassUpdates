@@ -1,0 +1,56 @@
+folder: trT8NjAi49Na7UGZ
+name: Born to the Saddle
+type: feat
+_id: uaftrBorntotheSa
+img: icons/environment/people/charge.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You have Advantage on saving throws made to avoid falling off your
+      mount. If you fall off your mount and descend no more than 10 feet, you
+      can land on your feet if you don’t have the &amp;Reference[Incapacitated
+      apply=false] condition.</p><p>In addition, mounting or dismounting a
+      creature costs you only 5 feet of movement rather than half your
+      Speed.</p>
+    chat: ''
+  identifier: born-to-the-saddle
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Cavalier
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 300000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996791950
+  modifiedTime: 1774996791950
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrBorntotheSa'

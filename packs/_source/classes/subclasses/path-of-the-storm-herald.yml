@@ -1,0 +1,92 @@
+folder: 90RWkd9OdpTwKESg
+name: Path of the Storm Herald
+type: subclass
+_id: uabrbStormHerald
+img: modules/UA2025-SubclassUpdates/assets/icons/classes/storm-herald.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: g3fRyHBcMIcjqO2r
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormAura00
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: O904mcN8oZTRViZC
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormSoul00
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: LbZqs2lngmPZrP1R
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbShieldingSt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: hyqF4JUVN2ZulWA3
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbRagingStorm
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Wield the Fury of the Storm</p></blockquote><p>Barbarians
+      who follow the Path of the Storm Herald learn to harness their Rage into a
+      mantle of primal magic that swirls around them like a storm. When in their
+      Rage, these Barbarians tap into the elemental forces of nature to create
+      powerful magical effects.</p>
+    chat: ''
+  identifier: storm-herald
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '2'
+    custom: ''
+    license: ''
+  classIdentifier: barbarian
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996759151
+  modifiedTime: 1774996977365
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbStormHerald'

@@ -1,0 +1,158 @@
+folder: trT8NjAi49Na7UGZ
+name: Unwavering Mark
+type: feat
+_id: uaftrUnwaveringM
+img: icons/skills/targeting/crosshair-bars-yellow.webp
+system:
+  activities:
+    LMDoBGC82QR2T8BY:
+      type: utility
+      name: Mark
+      _id: LMDoBGC82QR2T8BY
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you hit a creature with a Melee weapon
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: BclwuzGbDTabPPcS
+          level: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/targeted.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can menace your foes, foiling their attacks and punishing them for
+      harming others. When you hit a creature with a Melee weapon, you can mark
+      the creature until the end of your next turn. This effect ends early if
+      you have the &amp;Reference[Incapacitated apply=false] condition, you die,
+      or someone else marks the creature.</p><p>While it is within 5 feet of
+      you, a creature marked by you has Disadvantage on attack rolls against
+      creatures other than you.</p><p>In addition, if a creature marked by you
+      hits a creature other than you with an attack roll, you have Advantage on
+      attack rolls against the marked creature until the end of your next
+      turn.</p><section class="secret"
+      id="secret-YyHc1cbfbZrKKIeq"><p><strong>Foundry Note</strong></p><p>This
+      feature's effects are not automated, but a Mark active effect is available
+      with the <strong>Use</strong> activity to aid in remember to whom the
+      feature applies.</p></section>
+    chat: ''
+  identifier: unwavering-mark
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Cavalier
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Unwavering Mark
+    img: icons/skills/targeting/crosshair-bars-yellow.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrUnwaveringM
+    transfer: false
+    _id: BclwuzGbDTabPPcS
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul><li><p>While within 5 feet of the Cavalier, this creature has
+      Disadvantage on attacks other than the Cavalier.</p></li><li><p>If this
+      creature hits a creature other than the Cavalier, the Cavalier has
+      Advantage on attack rolls against this creature until the end of their
+      next turn.</p></li></ul>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uaftrUnwaveringM.BclwuzGbDTabPPcS'
+sort: 400000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996821826
+  modifiedTime: 1774996821907
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrUnwaveringM'

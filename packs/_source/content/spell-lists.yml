@@ -1,0 +1,65 @@
+name: Spell lists
+_id: uaSpelllists0000
+pages:
+  - sort: 100000
+    name: Oathbreaker (Paladin)
+    type: spells
+    _id: 8no7AmVBTPP9LBcH
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb
+        - Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFear000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal
+        - Compendium.dnd-players-handbook.spells.Item.phbsplContagion0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS
+      unlinkedSpells: []
+      identifier: oathbreaker
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSpelllists0000.8no7AmVBTPP9LBcH'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996675467
+  modifiedTime: 1774997929157
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaSpelllists0000'

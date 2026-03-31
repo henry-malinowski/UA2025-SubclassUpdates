@@ -1,0 +1,151 @@
+folder: GUKDQfAUQiho4gGB
+name: Conjure Undead
+type: feat
+_id: uapdnConjureUnde
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  activities:
+    OfUxOmNBsRs2UQ1x:
+      type: summon
+      _id: OfUxOmNBsRs2UQ1x
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: max(1,ceil(@abilities.cha.mod/2))
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        proficiency: false
+        saves: false
+        ability: ''
+        disposition: false
+      profiles:
+        - count: max(1,ceil(@abilities.cha.mod/2))
+          name: ''
+          _id: jG8LNCg8RKpDzll1
+          uuid: Compendium.dnd-players-handbook.actors.Actor.phbmobZombie0000
+          level:
+            min: null
+            max: null
+          types: []
+        - count: max(1,ceil(@abilities.cha.mod/2))
+          name: ''
+          _id: g2TrIM8IfJKDuAxM
+          uuid: Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>As a Bonus Action, you can expend one use of your Channel Divinity to
+      summon a number of Undead equal to half your Charisma modifier (round up;
+      minimum of one Undead summoned). Each Undead appears in an unoccupied
+      space you can see within 30 feet of you and is a type of your choice:
+      @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{Skeleton}
+      or
+      @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobZombie0000]{Zombie}
+      (see appendix B of the Player’s Handbook for the stat blocks).</p><p>The
+      Undead are under your control for 1 minute, after which they dissolve into
+      ash. Each Undead is an ally to you and your allies. In combat, the Undead
+      shares your Initiative count, but it takes its turn immediately after
+      yours. It obeys your verbal commands (no action required by you). If you
+      don’t issue any, it takes the &amp;Reference[Dodge] action and uses its
+      movement to avoid danger.</p>
+    chat: ''
+  identifier: conjure-undead
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Oathbreaker
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996871792
+  modifiedTime: 1774996871792
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnConjureUnde'

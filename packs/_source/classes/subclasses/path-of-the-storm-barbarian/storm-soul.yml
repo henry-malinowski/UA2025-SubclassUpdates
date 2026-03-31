@@ -1,0 +1,188 @@
+folder: oz7UgzRKErDqSVH8
+name: Storm Soul
+type: feat
+_id: uabrbStormSoul00
+img: icons/magic/air/wind-vortex-swirl-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The storm grants you benefits even when your aura isn’t active. The
+      benefits are based on the environment you chose for your
+      @UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormAura00]{Storm
+      Aura} the last time you entered your
+      Rage.</p><p><em><strong>Desert.</strong></em> You gain Resistance to Fire
+      damage. As a Magic action, you can touch a flammable object that isn’t
+      being worn or carried by anyone else fand cause the object to start
+      burning.</p><p><em><strong>Sea.</strong></em> You gain Resistance to
+      Lightning damage, and you can breathe underwater. You also gain a Swim
+      Speed equal to your Speed.</p><p><em><strong>Tundra.</strong></em> You
+      gain Resistance to Cold damage. As a Magic action, you can touch water and
+      turn a 5-foot Cube of it into ice, which melts after 1 minute. This action
+      fails if a creature is in the Cube.</p><section class="secret"
+      id="secret-NbMrhel8Qae61fgt"><p><strong>Foundry Note</strong></p><p>This
+      feature includes 3 active effects that can be toggled between to allow
+      application of the different damage resistences.</p></section>
+    chat: ''
+  identifier: storm-soul
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '2'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties:
+    - trait
+  requirements: Path of the Storm
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Desert
+    img: icons/magic/air/fog-gas-smoke-dense-orange.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormSoul00
+    _id: vmubia0INAzw1RXs
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain Resistance to Fire damage. As a Magic action, you can touch a
+      flammable object that isn’t being worn or carried by anyone else fand
+      cause the object to start burning.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrbStormSoul00.vmubia0INAzw1RXs'
+  - name: Sea
+    img: icons/magic/air/wind-tornado-wall-blue.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormSoul00
+    _id: 1y7KiBhBVSYg3Hjl
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain Resistance to Lightning damage, and you can breathe
+      underwater. You also gain a Swim Speed equal to your Speed.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrbStormSoul00.1y7KiBhBVSYg3Hjl'
+  - name: Tundra
+    img: icons/magic/water/wave-water-explosion.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormSoul00
+    _id: K3NAFyVyu6A77sSx
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain Resistance to Cold damage. As a Magic action, you can touch
+      water and turn a 5-foot Cube of it into ice, which melts after 1 minute.
+      This action fails if a creature is in the Cube.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrbStormSoul00.K3NAFyVyu6A77sSx'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996977299
+  modifiedTime: 1774996977365
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbStormSoul00'

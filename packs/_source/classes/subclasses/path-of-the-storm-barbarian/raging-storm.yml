@@ -1,0 +1,349 @@
+folder: oz7UgzRKErDqSVH8
+name: Raging Storm
+type: feat
+_id: uabrbRagingStorm
+img: icons/magic/air/wind-tornado-cyclone-purple-blue.webp
+system:
+  activities:
+    c8RSON9pHnBziRcq:
+      type: utility
+      name: Desert (apply Burning)
+      _id: c8RSON9pHnBziRcq
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When a creature fails its saving throw against your Desert Storm Aura
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: 9w5lWM2CIgVc1zLY
+          level: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '10'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/sandstorm.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    I7CE51TAuqLRh4Bq:
+      type: save
+      name: Sea (repeat Save)
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When a creature fails its saving throw against your Sea Storm Aura
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '40'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scale.barbarian.rage-damage)d6
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: con
+          formula: ''
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/lightning-storm.svg
+      _id: I7CE51TAuqLRh4Bq
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    qqHjjerKeUzQ1NMG:
+      type: damage
+      name: Tundra (damage and effect)
+      _id: qqHjjerKeUzQ1NMG
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When a creature fails its saving throw against your Tundra Storm Aura
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: txfLsDUIXcE23BRt
+          level: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '10'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: '2'
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              number: 1
+      img: modules/UA2025-SubclassUpdates/assets/icons/ui/snowflake-2.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The power of the storm you channel grows mightier, lashing out at your
+      foes. The effect is based on the environment you choose for your
+      @UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormAura00]{Storm
+      Aura}.</p><p><em><strong>Desert.</strong></em> Once per turn, when a
+      creature you can see fails its saving throw against your Storm Aura
+      effect, you can cause it to start &amp;Reference[burning] for 1 minute or
+      until your Rage ends. A burning creature takes an extra 1d4 Fire damage
+      ([[/damage 2d4 fire]]{2d4 Fire} damage total) at the start of each of its
+      turns.</p><p><em><strong>Sea.</strong></em> Whether the target fails or
+      succeeds on its saving throw against your Storm Aura effect, a bolt of
+      lightning leaps from the target to another target of your choice, which
+      must be within 30 feet of the first target. The new target makes the same
+      Dexterity saving throw as the first
+      target.</p><p><em><strong>Tundra.</strong></em> Once per turn, when a
+      creature you can see fails its saving throw against your Storm Aura
+      effect, you can cause it to take [[/damage 2d4 cold]]{2d4 Cold} damage and
+      its Speed is halved until the end of its next turn.</p>
+    chat: ''
+  identifier: raging-storm
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties: []
+  requirements: Path of the Storm
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Burning
+    img: icons/magic/fire/flame-burning-creature-skeleton.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbRagingStorm
+    transfer: false
+    _id: 9w5lWM2CIgVc1zLY
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This creature is Burning for 1 minute or until the Storm Herald's Rage
+      ends. This burning deals 2d4 Fire damage at the start of this creature's
+      turns.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrbRagingStorm.9w5lWM2CIgVc1zLY'
+  - name: Slowed
+    img: icons/magic/air/wind-tornado-cyclone-purple-blue.webp
+    origin: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbRagingStorm
+    transfer: false
+    _id: txfLsDUIXcE23BRt
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.burrow
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.climb
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.fly
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.swim
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.walk
+        mode: 1
+        value: '0.5'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>This creature's speed is halved until the end of its next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrbRagingStorm.txfLsDUIXcE23BRt'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996949291
+  modifiedTime: 1774996963986
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrbRagingStorm'

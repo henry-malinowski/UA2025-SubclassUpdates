@@ -1,0 +1,160 @@
+folder: cbOwedQZMMIXF0Vd
+name: Master Brewer
+type: feat
+_id: uamnkMasterBrewe
+img: icons/skills/toxins/poison-skull-herbs-bottle-pink.webp
+system:
+  activities:
+    jsRZL052kfv0l1Gk:
+      type: utility
+      name: Blue Lightning
+      _id: jsRZL052kfv0l1Gk
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          Whenever you take a Reaction that isn't making an Opportunity Attack
+          or casting a spell
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    4ijvpIkDIBIdwDOG:
+      type: utility
+      name: Drunkard's Luck
+      _id: 4ijvpIkDIBIdwDOG
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You learn more complex flavors. The following beverages are added to
+      your
+      @UUID[Compendium.UA2025-SubclassUpdates.classes.Item.uamnkMysticBrew0]{Mystic
+      Brew} options.</p><hr /><p><em><strong>Blue Lightning.</strong></em>
+      Whenever you take a Reaction that isn’t making an Opportunity Attack or
+      casting a spell, you can make one Unarmed Strike as part of that
+      Reaction.</p><p><em><strong>Drunkard’s Luck.</strong></em> You gain Heroic
+      Inspiration if you don’t already have it. In addition, you can give
+      yourself Heroic Inspiration when you roll Initiative without it.</p>
+    chat: ''
+  identifier: master-brewer
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '5'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: Warrior of Intoxication
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774997009493
+  modifiedTime: 1774997015885
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkMasterBrewe'

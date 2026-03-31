@@ -1,0 +1,55 @@
+folder: GUKDQfAUQiho4gGB
+name: Supernatural Resistance
+type: feat
+_id: uapdnSupernatura
+img: icons/magic/defensive/shield-barrier-blades-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain Resistance to Bludgeoning, Piercing, and Slashing
+      damage.</p><section class="secret"
+      id="secret-X0svJBfVQKrga6D4"><p><strong>Foundry Note</strong></p><p>These
+      damage resistances are added to your character when you level
+      up.</p></section>
+    chat: ''
+  identifier: supernatural-resistance
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '6'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties:
+    - trait
+  requirements: Oathbreaker
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996903084
+  modifiedTime: 1774996903084
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnSupernatura'

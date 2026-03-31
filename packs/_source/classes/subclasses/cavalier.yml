@@ -1,0 +1,131 @@
+folder: 90RWkd9OdpTwKESg
+name: Cavalier
+type: subclass
+_id: uaftrCavalier000
+img: modules/UA2025-SubclassUpdates/assets/icons/classes/cavalier.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: qjTtodxBKt3tKrO5
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrBorntotheSa
+            optional: false
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrUnwaveringM
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: fuXMaTDQa3edNPfz
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrWardingMane
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: YnURJgb0yTCWBpVq
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrHoldtheLine
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: wKQVjW8DhNZ6wKja
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrFerociousCh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: XTT1sKEZmI69o1LR
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrVigilantDef
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      hint: ''
+    - type: ItemChoice
+      title: Bonus Proficiency
+      _id: ozuzhfPO8C908syB
+      configuration:
+        allowDrops: false
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrProfLanguag
+          - uuid: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrProfSkills0
+        restriction:
+          list: []
+          type: class
+          subtype: ''
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        You gain proficiency in one the following skills of your choice: Animal
+        Handling, History, Insight, Performance, or Persuasion. Alternatively,
+        you learn one language of your choice.
+  description:
+    value: >-
+      <blockquote><p>Defend Your Allies on Foot or from a
+      Mount</p></blockquote><p>Cavaliers excel at mounted combat and guard those
+      in their charge, often protecting their superiors and the weak. A Cavalier
+      is equally at home leading a cavalry charge or exchanging repartees at a
+      state dinner.</p>
+    chat: ''
+  identifier: cavalier
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  classIdentifier: fighter
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996737812
+  modifiedTime: 1774996855199
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrCavalier000'

@@ -1,0 +1,220 @@
+name: Subclass Updates
+_id: uaSubclassUpdate
+pages:
+  - sort: 100000
+    name: Path of the Spiritual Guardian (Barbarian)
+    type: subclass
+    _id: xY1zsqQ3Nrwyf1Yd
+    system:
+      item: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbSpiritualGu
+      description:
+        value: >-
+          <blockquote><p>Call on the Spirits for Combat
+          Aid</p></blockquote><p>Barbarians who walk the Path of the Spiritual
+          Guardian call upon spirits—whether bestial spirits of nature, spirits
+          of departed ancestors, or spirits of raw elemental power—to guide and
+          protect them. When these Barbarians rage, they contact the realm of
+          the spirits and call on them for aid.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSubclassUpdate.xY1zsqQ3Nrwyf1Yd'
+  - sort: 200000
+    name: Path of the Storm Herald (Barbarian)
+    type: subclass
+    _id: wEFDVZ2mnAvFGpQF
+    system:
+      item: Compendium.UA2025-SubclassUpdates.classes.Item.uabrbStormHerald
+      description:
+        value: >-
+          <blockquote><p>Wield the Fury of the
+          Storm</p></blockquote><p>Barbarians who follow the Path of the Storm
+          Herald learn to harness their Rage into a mantle of primal magic that
+          swirls around them like a storm. When in their Rage, these Barbarians
+          tap into the elemental forces of nature to create powerful magical
+          effects.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSubclassUpdate.wEFDVZ2mnAvFGpQF'
+  - sort: 300000
+    name: Cavalier (Fighter)
+    type: subclass
+    _id: PHPy5fp1z2Z7i4hI
+    system:
+      item: Compendium.UA2025-SubclassUpdates.classes.Item.uaftrCavalier000
+      description:
+        value: >-
+          <blockquote><p>Defend Your Allies on Foot or from a
+          Mount</p></blockquote><p>Cavaliers excel at mounted combat and guard
+          those in their charge, often protecting their superiors and the weak.
+          A Cavalier is equally at home leading a cavalry charge or exchanging
+          repartees at a state dinner.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSubclassUpdate.PHPy5fp1z2Z7i4hI'
+  - sort: 400000
+    name: Warrior of Intoxication (Monk)
+    type: subclass
+    _id: xjxUkOpNfHTEvpCQ
+    system:
+      item: Compendium.UA2025-SubclassUpdates.classes.Item.uamnkIntoxicatio
+      description:
+        value: >-
+          <blockquote><p>Drink Mystic Brews to Overwhelm and Confound
+          Foes</p></blockquote><p>Warriors of Intoxication move with the jerky,
+          unpredictable movements typical of someone who is intoxicated. These
+          Monks sway on unsteady feet to appear incompetent and then prove
+          themselves frustrating to engage. Their apparently erratic stumbles
+          conceal a carefully executed dance of blocks, parries, advances,
+          attacks, and retreats.</p><p>Warriors of Intoxication often enjoy
+          playing the fool to bring gladness to the downtrodden or to teach
+          humility to the arrogant, but these Monks are maddening, masterful
+          foes in battle.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSubclassUpdate.xjxUkOpNfHTEvpCQ'
+  - sort: 500000
+    name: Oathbreaker (Paladin)
+    type: subclass
+    _id: Du6PFOk981rOmq01
+    system:
+      item: Compendium.UA2025-SubclassUpdates.classes.Item.uapdnOathbreaker
+      description:
+        value: >-
+          <blockquote><p>Obtain Great Power at Any Cost</p></blockquote><p>The
+          power of a Paladin’s oath is so great that it holds a distorted power
+          even when it is violated. When a Paladin betrays the tenets of their
+          oath because of corruption, pride, or thirst for power, they lose the
+          blessing granted by their original oath but sometimes take on the
+          sinister blessing of the Oathbreaker in its place. Oathbreakers use
+          fear and overwhelming power to achieve their goals. While many
+          Oathbreakers are beyond redemption, some Paladins bend this oath to
+          achieve a great and noble deed to atone for their past evils.</p><p>At
+          the DM’s discretion, a Paladin of any level who violates the tenets of
+          their oath can lose the benefits granted by their original subclass
+          and gain the features of the Oathbreaker subclass instead.
+          Alternatively, a Paladin can choose this subclass at level 3 based on
+          the character’s backstory of falling from grace.</p><p>These Paladins
+          often share the following tenets:</p><p>• Fear is a tool in the hands
+          of the powerful.</p><p>• Strive for power at any cost.</p><p>• Do what
+          must be done, but never lose sight of your goal.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaSubclassUpdate.Du6PFOk981rOmq01'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996686067
+  modifiedTime: 1774996766191
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaSubclassUpdate'

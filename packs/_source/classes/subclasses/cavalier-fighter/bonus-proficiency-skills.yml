@@ -1,0 +1,71 @@
+folder: trT8NjAi49Na7UGZ
+name: Bonus Proficiency (Skills)
+type: feat
+_id: uaftrProfSkills0
+img: icons/commodities/tech/cog-bronze.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: 0BdnKVNT9NFAeMuQ
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:ani
+              - skills:his
+              - skills:ins
+              - skills:prf
+              - skills:per
+        grants: []
+        mode: default
+      level: 3
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You gain proficiency in one the following skills of your choice: Animal
+      Handling, History, Insight, Performance, or Persuasion. Alternatively, you
+      learn one language of your choice.</p>
+    chat: ''
+  identifier: bonus-proficiency
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: '3'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Cavalier
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774996784527
+  modifiedTime: 1774996784527
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrProfSkills0'
